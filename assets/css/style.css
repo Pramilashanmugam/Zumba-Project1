@@ -1,12 +1,35 @@
+/* Google fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-/*Header*/ 
-header {background-color: pink;}
-/*Main*/ 
-main {background-color: rgb(197, 255, 192);}
-/*Footer*/ 
-Footer {background-color: rgb(119, 115, 202);}
+
+/* Basic styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Basic project styles */
+    color: black;
+}
+
+/*Header*/
+header {
+    background-color: pink;
+    
+}
+
+/*Main*/
+main {
+    background-color: rgb(197, 255, 192);
+    flex:1 0 auto;
+}
+
+/*Footer*/
+Footer {
+    background-color: rgb(119, 115, 202);
+}
