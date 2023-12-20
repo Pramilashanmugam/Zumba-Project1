@@ -1,5 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins:wght@300&family=Sintony&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -9,26 +10,72 @@
 
 /* Basic styles */
 body {
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Basic project styles */
-    color: black;
+
+}
+
+
+/*Heading and Logo*/
+h1,
+h2,
+h3 {
+    font-family: Sintony, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+
+}
+
+.logo {
+    float: left;
+    font-size: 75%;
+    text-decoration: none;
+}
+
+#header-nav {
+    font-size: 110%;
+    letter-spacing: 3;
+    list-style-type: none;
+}
+
+#header-nav li {
+    float: right;
+    margin-right: 30px;
 }
 
 /*Header*/
 header {
-    background-color: pink;
-    
+    background-color: #362B45;
+    padding: 0 1rem;
+    position: sticky;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: white;
+
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /*Main*/
 main {
-    background-color: rgb(197, 255, 192);
-    flex:1 0 auto;
+
+    flex: 1 0 auto;
+    color: black;
 }
 
 /*Footer*/
 Footer {
-    background-color: rgb(119, 115, 202);
+    background-color: #362B45;
+    color: white;
 }
