@@ -16,9 +16,10 @@ body {
     display: flex;
     flex-direction: column;
     /* Basic project styles */
+    color:#362B45;
 
 }
-
+div nav ul { float:right;}
 
 /*Heading and Logo*/
 h1,
@@ -31,22 +32,24 @@ h3 {
 
 }
 
-.logo {
+.heading {
     float: left;
-    font-size: 75%;
+    font-size: 50px;
     text-decoration: none;
 }
 
 #header-nav {
     font-size: 110%;
-    letter-spacing: 3;
+    letter-spacing: 4;
     list-style-type: none;
 }
 
-#header-nav li {
+#header-nav > li {
+    margin-bottom: 1em
     float: right;
     margin-right: 30px;
 }
+.active { border-bottom }
 
 /*Header*/
 header {
@@ -66,7 +69,16 @@ header a {
     text-decoration: none;
     color: inherit;
 }
-
+/*Navigation*/
+nav { position:relative;
+background-color: #362B45;
+width:100%;
+left:0;
+padding:0 1rem;}
+.nav-toggle-label {
+    font-size: 2rem;
+}
+#nav-toggle{display:none;}
 /*Main*/
 main {
 
