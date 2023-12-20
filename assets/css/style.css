@@ -16,10 +16,13 @@ body {
     display: flex;
     flex-direction: column;
     /* Basic project styles */
-    color:#362B45;
+    color: #362B45;
 
 }
-div nav ul { float:right;}
+
+div nav ul {
+    float: right;
+}
 
 /*Heading and Logo*/
 h1,
@@ -44,12 +47,9 @@ h3 {
     list-style-type: none;
 }
 
-#header-nav > li {
-    margin-bottom: 1em
-    float: right;
-    margin-right: 30px;
+#header-nav li {
+    margin-bottom: 1em;
 }
-.active { border-bottom }
 
 /*Header*/
 header {
@@ -69,16 +69,35 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+
 /*Navigation*/
-nav { position:relative;
-background-color: #362B45;
-width:100%;
-left:0;
-padding:0 1rem;}
+nav {
+    position: absolute;
+    background-color: #362B45;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display:none;
+    top:100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
 .nav-toggle-label {
     font-size: 2rem;
 }
-#nav-toggle{display:none;}
+.topnav a:hover {background-color: #ddd;
+    color: black;
+    
+}
+
+
 /*Main*/
 main {
 
@@ -90,4 +109,21 @@ main {
 Footer {
     background-color: #362B45;
     color: white;
+}
+/*Media queries: tablets and larger (768px and up)*/
+@media screen and (min-width: 768px) {
+/*Header*/
+nav{
+    display:block;
+    position:relative;
+    width: fit-content;
+    padding-right: 1rem;
+}
+#header-nav {
+    display:flex;
+    }
+#header-nav li {padding-left:1em;}
+.nav-toggle-label {
+    display:none;
+}
 }
