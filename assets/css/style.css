@@ -126,18 +126,13 @@ iframe {
 /*Footer*/
 Footer {
     background-color: #362B45;
-    color: white;
+    
+    
 }
-#container {
-    display:flex;
-        justify-content: space-evenly;
-    list-style-type: none;
-}
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    list-style-type: none;
-}
+
+
+.footer-container { color:white;}
+.footer-container a { color:white;}
 
 /*Media queries: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
