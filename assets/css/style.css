@@ -140,7 +140,8 @@ text-decoration:none;}
 .info {margin:10px 0;}
 /* below comment will not display bullet points*/
 #social-networks{
-    list-style-type: none;}
+    list-style-type: none;
+}
     /* copywrite font size reduced to fit in one line*/
 #copy {font-size:65%;}
 /*reduced the font-size in footer for the email address to fit in one line*/
@@ -178,6 +179,8 @@ text-decoration:none;}
     .to-reach { display:flex;
     justify-content: space-evenly;}
 
+    #social {margin: 28px 0 16px 0;}
+
     /*Media queries: laptops and desktop (992px and up)*/
 @media screen and (min-width: 992px) {
 
@@ -185,9 +188,12 @@ text-decoration:none;}
         position: sticky;
         top: 0;
       }
+      /*Footer*/
+    
  footer {
         position: sticky;
         bottom: 0;
       }
+#social {margin: 28px 0 16px 0;}
 }
 }
