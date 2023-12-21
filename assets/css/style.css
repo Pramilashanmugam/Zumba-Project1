@@ -106,14 +106,15 @@ main {
     flex: 1 0 auto;
     color: black;
 }
+
 /*Video content on homepage*/
 .video-container {
     position: relative;
     width: 100%;
-    padding-bottom:56.25%;
-    display:block;
+    padding-bottom: 56.25%;
+    display: block;
     overflow: hidden;
-  }
+}
 
 iframe {
     position: absolute;
@@ -126,27 +127,45 @@ iframe {
 /*Footer*/
 Footer {
     background-color: #362B45;
-    
-    
+
+
 }
 
-#container{ padding:0 50px;}
-
-.footer-container { color:white;
-margin:16px 0;
+#container {
+    padding: 0 50px;
 }
-.footer-container a { color:white;
-text-decoration:none;}
-.info {margin:10px 0;}
+
+.footer-container {
+    color: white;
+    margin: 16px 0;
+}
+
+.footer-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.info {
+    margin: 10px 0;
+}
+
 /* below comment will not display bullet points*/
-#social-networks{
+#social-networks {
     list-style-type: none;
 }
-    /* copywrite font size reduced to fit in one line*/
-#copy {font-size:65%;}
-/*reduced the font-size in footer for the email address to fit in one line*/
-.to-reach { font-size:90%;}
 
+/* copywrite font size reduced to fit in one line*/
+#copy {
+    font-size: 65%;
+}
+
+/*reduced the font-size in footer for the email address to fit in one line*/
+.to-reach {
+    font-size: 90%;
+}
+
+/*Why Zumba page*/
+picture img {max-width:100%;}
 /*Media queries: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
 
@@ -175,25 +194,34 @@ text-decoration:none;}
         line-height: 75px;
         margin: 0 0.5rem;
     }
-    /*Footer*/
-    .to-reach { display:flex;
-    justify-content: space-evenly;}
 
-    #social {margin: 28px 0 16px 0;}
+    /*Footer*/
+    .to-reach {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #social {
+        margin: 28px 0 16px 0;
+    }
 
     /*Media queries: laptops and desktop (992px and up)*/
-@media screen and (min-width: 992px) {
+    @media screen and (min-width: 992px) {
 
-    header {
-        position: sticky;
-        top: 0;
-      }
-      /*Footer*/
-    
- footer {
-        position: sticky;
-        bottom: 0;
-      }
-#social {margin: 28px 0 16px 0;}
-}
+        header {
+            position: sticky;
+            top: 0;
+        }
+
+        /*Footer*/
+
+        footer {
+            position: sticky;
+            bottom: 0;
+        }
+
+        #social {
+            margin: 28px 0 16px 0;
+        }
+    }
 }
