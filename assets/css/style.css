@@ -129,7 +129,8 @@ Footer {
     
     
 }
-#container{ text-align:center;}
+
+#container{ padding:0 50px;}
 
 .footer-container { color:white;
 margin:16px 0;
@@ -137,7 +138,13 @@ margin:16px 0;
 .footer-container a { color:white;
 text-decoration:none;}
 .info {margin:10px 0;}
-
+/* below comment will not display bullet points*/
+#social-networks{
+    list-style-type: none;}
+    /* copywrite font size reduced to fit in one line*/
+#copy {font-size:65%;}
+/*reduced the font-size in footer for the email address to fit in one line*/
+.to-reach { font-size:90%;}
 
 /*Media queries: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
