@@ -174,4 +174,20 @@ text-decoration:none;}
         line-height: 75px;
         margin: 0 0.5rem;
     }
+    /*Footer*/
+    .to-reach { display:flex;
+    justify-content: space-evenly;}
+
+    /*Media queries: laptops and desktop (992px and up)*/
+@media screen and (min-width: 992px) {
+
+    header {
+        position: sticky;
+        top: 0;
+      }
+ footer {
+        position: sticky;
+        bottom: 0;
+      }
+}
 }
