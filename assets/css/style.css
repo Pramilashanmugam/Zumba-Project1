@@ -129,10 +129,15 @@ Footer {
     
     
 }
+#container{ text-align:center;}
 
+.footer-container { color:white;
+margin:16px 0;
+}
+.footer-container a { color:white;
+text-decoration:none;}
+.info {margin:10px 0;}
 
-.footer-container { color:white;}
-.footer-container a { color:white;}
 
 /*Media queries: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
