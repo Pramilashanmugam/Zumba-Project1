@@ -105,6 +105,8 @@ main {
 
     flex: 1 0 auto;
     color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 /*Video content on homepage*/
@@ -192,7 +194,13 @@ picture img {
 
 /*Register form*/
 
-
+/*Text area - comment section*/
+.textarea-input {float: left;
+    width: 100%;
+    min-height: 75px;
+    outline: none;
+    resize: none;
+    border: 1px solid grey;}
   
 
 /*Media queries: tablets and larger (768px and up)*/
