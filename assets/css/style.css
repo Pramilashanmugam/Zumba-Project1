@@ -201,33 +201,44 @@ Footer {
     margin: 0px auto;
     margin-top: 50px;
 }
+.inputname {margin:10px;}
 
 .text-input {
     background: transparent;
     color: #fafafa;
-    width: 100%;
+    border-radius:5px;
+    width: 90%;
     height: 25px;
     padding: 0 5px;
-    margin: 5px 0 20px 0;
-    border: 1px solid black;
-    border-radius: 2px;
+    margin: 5px 10px 20px 10px;
+    border: 1px solid #362B45;
+   
 
 }
 
 .radio {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
 }
-
+.registerbtn {
+    margin:20px 0 20px 10px;
+    padding:15px 32px;
+border-radius:10px;
+background-color:white;
+color:#362B45;
+font-size:100%;
+align-items: center;
+}
 /*Text area - comment section*/
 .textarea-input {
     float: left;
-    width: 100%;
+    margin: 5px 10px 20px 10px;
+    padding: 0 5px;
+    width: 90%;
     min-height: 75px;
-    outline: none;
-    resize: none;
-    border: 1px solid grey;
+    border-radius: 10px;
+    border: 1px solid #362B45;
 }
 
 
