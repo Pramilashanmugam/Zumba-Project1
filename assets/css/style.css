@@ -19,11 +19,12 @@ body {
     color: #362B45;
 
 }
+
 /*Video content on homepage*/
 video {
     width: 100%;
     height: auto;
-    
+
 }
 
 div nav ul {
@@ -62,8 +63,8 @@ header {
     background-color: #362B45;
     padding: 0 1rem;
     position: sticky;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     z-index: 99;
     width: 100%;
     display: flex;
@@ -161,8 +162,38 @@ Footer {
 }
 
 /*Why Zumba page*/
-.page2image { width:100%;
-height:auto;}
+
+.page2image {
+    width: 100%;
+    height: auto;
+}
+
+#benefits {
+    display: flex;
+    flex-direction: column;
+}
+
+#reasons h2 {
+    color: #362B45;
+    text-align: center;
+}
+
+.benefits-life>h3 {
+    padding: 0 10px;
+    margin-top: 20px;
+    color: #362B45;
+}
+
+.benefits-life>p {
+    padding: 0 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.benefits-life>hr {
+    padding: 0 10px;
+}
 
 /*Register form*/
 .form-center {
@@ -239,6 +270,19 @@ height:auto;}
         margin: 28px 0 16px 0;
     }
 
+    /*Why Zumba page*/
+    #benefits {
+                flex-direction: row;
+
+    }
+    #benefits .benefits-life { 
+          
+    }
+    #benefits-row1 > div, #benefits-row2 > div { 
+        margin:10px;
+    border-radius: 10px;
+width:40%;
+align-items: center;}
     /*Media queries: laptops and desktop (992px and up)*/
     @media screen and (min-width: 992px) {
 
