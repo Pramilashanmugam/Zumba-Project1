@@ -201,35 +201,41 @@ Footer {
     margin: 0px auto;
     margin-top: 50px;
 }
-.inputname {margin:10px;}
+
+.inputname {
+    margin: 10px;
+}
 
 .text-input {
     background: transparent;
     color: #fafafa;
-    border-radius:5px;
+    border-radius: 5px;
     width: 90%;
     height: 25px;
     padding: 0 5px;
     margin: 5px 10px 20px 10px;
     border: 1px solid #362B45;
-   
+
 
 }
 
 .radio {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width:90%;
+            
 }
+label > .gender {font-size:50%;}
+
 .registerbtn {
-    margin:20px 0 20px 10px;
-    padding:15px 32px;
-border-radius:10px;
-background-color:white;
-color:#362B45;
-font-size:100%;
-align-items: center;
-}
+    margin: 20px 0 20px 30%;
+    padding: 15px 32px;
+    border-radius: 10px;
+    background-color: white;
+    color: #362B45;
+    font-size: 100%;
+    }
+
 /*Text area - comment section*/
 .textarea-input {
     float: left;
@@ -283,17 +289,20 @@ align-items: center;
 
     /*Why Zumba page*/
     #benefits {
-                flex-direction: row;
+        flex-direction: row;
 
     }
-    #benefits .benefits-life { 
-          
+
+    #benefits .benefits-life {}
+
+    #benefits-row1>div,
+    #benefits-row2>div {
+        margin: 10px;
+        border-radius: 10px;
+        width: 40%;
+        align-items: center;
     }
-    #benefits-row1 > div, #benefits-row2 > div { 
-        margin:10px;
-    border-radius: 10px;
-width:40%;
-align-items: center;}
+
     /*Media queries: laptops and desktop (992px and up)*/
     @media screen and (min-width: 992px) {
 
