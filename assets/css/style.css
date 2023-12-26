@@ -343,7 +343,8 @@ label>.gender {
     }
 
     /*Why Zumba page*/
-    .image .content {
+    .image .page2image {
+        margin:0 0 0 13%;
         max-width: 75%;
     }
 }
