@@ -124,8 +124,10 @@ main {
 /*Footer*/
 Footer {
     background-color: #362B45;
+}
 
-
+.footer-container h2 {
+    visibility: hidden;
 }
 
 #container {
@@ -167,7 +169,10 @@ Footer {
     width: 100%;
     height: auto;
 }
-#reasons {margin: 20px auto;}
+
+#reasons {
+    margin: 20px auto;
+}
 
 
 
@@ -234,8 +239,8 @@ label>.gender {
     margin: 20px 0 20px 25%;
     padding: 15px 32px;
     border-radius: 10px;
-    background-color:#362B45;
-    color:white;
+    background-color: #362B45;
+    color: white;
     font-size: 100%;
 }
 
@@ -248,6 +253,7 @@ label>.gender {
     min-height: 75px;
     border-radius: 10px;
     border: 1px solid #362B45;
+}
 
 /*Media queries: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
@@ -289,33 +295,31 @@ label>.gender {
     }
 
     /*Why Zumba page*/
-    #benefits-row1, #benefits-row2, #benefits-row3 {display: flex;
+    #benefits-row1,
+    #benefits-row2,
+    #benefits-row3 {
+        display: flex;
         flex-direction: column;
-        width:100%;
+        width: 100%;
     }
-   
-    /*Media queries: laptops and desktop (992px and up)*/
-    @media screen and (min-width: 992px) {
+}
 
-        header {
-            position: sticky;
-            top: 0;
-        }
+/*Media queries: laptops and desktop (992px and up)*/
+@media screen and (min-width: 992px) {
 
-        /*Footer*/
+    header {
+        position: sticky;
+        top: 0;
+    }
 
-        footer {
-            position: sticky;
-            bottom: 0;
-        }
+    /*Footer*/
 
-        #social {
-            margin: 28px 0 16px 0;
-        }
+    #social {
+        margin: 28px 0 16px 0;
+    }
 
-        /*Why Zumba page*/
-        .image .content {
-            max-width: 100%;
-        }
+    /*Why Zumba page*/
+    .image .content {
+        max-width: 100%;
     }
 }
