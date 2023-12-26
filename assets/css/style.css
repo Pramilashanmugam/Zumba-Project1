@@ -118,8 +118,12 @@ main {
     flex-direction: column;
 }
 
+.main-content h2{color: #362B45;
+text-align:center;
+font-size:100%;
+margin:20px 5px;}
 
-
+.main-content {margin:20px 20px;}
 
 /*Footer*/
 Footer {
@@ -197,6 +201,7 @@ Footer {
 }
 
 .benefits-life>p {
+    color: #362B45;
     padding: 0 10px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -302,31 +307,35 @@ label>.gender {
     }
 
     /*Why Zumba page*/
-    
+
     #benefits-row1,
-    #benefits-row2,#benefits-row3{
-     display: flex;
-        flex-direction:row;
+    #benefits-row2,
+    #benefits-row3 {
+        display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
-        width:100%;
+        width: 100%;
         justify-content: space-evenly;
     }
+
     #benefits-row1 {
-        order:-1;
+        order: -1;
     }
 
     #benefits-row2 {
-        order:0;
+        order: 0;
     }
+
     #benefits-row3 {
-        order:1;
+        order: 1;
     }
+
     .benefits-life {
         width: 500px;
         margin: 5px;
         flex-wrap: wrap;
     }
-}   
+}
 
 /*Media queries: laptops and desktop (992px and up)*/
 @media screen and (min-width: 992px) {
@@ -344,7 +353,7 @@ label>.gender {
 
     /*Why Zumba page*/
     .image .page2image {
-        margin:0 0 0 13%;
+        margin: 0 0 0 13%;
         max-width: 75%;
     }
 }
