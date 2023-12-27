@@ -118,10 +118,12 @@ main {
     flex-direction: column;
 }
 
-.main-content h2{color: #362B45;
+.main-content h1{color: #362B45;
 text-align:center;
-font-size:100%;
+font-size:2rem;
+font-weight: 700;
 margin:20px 5px;}
+
 
 .main-content {margin:20px 20px;}
 
@@ -129,10 +131,7 @@ margin:20px 5px;}
 Footer {
     background-color: #362B45;
 }
-
-.footer-container h2 {
-    visibility: hidden;
-}
+#social-networks {margin-top: 10px;}
 
 #container {
     padding: 0 50px;
