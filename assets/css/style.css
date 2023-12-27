@@ -113,7 +113,7 @@ main {
     flex-direction: column;
 }
 
-.main-content h1 {
+.main-content h2 {
     color: #362B45;
     text-align: center;
     font-size: 2rem;
@@ -124,7 +124,7 @@ main {
 .main-content {
     margin: 20px 20px;
 }
-
+.main-content p{text-align:center;}
 .containerbox {
     width: 100%;
     height: auto;
@@ -250,6 +250,8 @@ Footer {
     margin: 5px 10px 20px 10px;
     border: 1px solid #362B45;
 }
+.form-container h2 {text-align:center;}
+.form-container p {text-align:center;}
 
 .radio {
     display: flex;
@@ -262,7 +264,7 @@ label>.gender {
 }
 
 .registerbtn {
-    margin: 20px 0 20px 25%;
+    margin: 20px 0 20px 28%;
     padding: 15px 32px;
     border-radius: 10px;
     background-color: #362B45;
