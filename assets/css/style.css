@@ -238,11 +238,12 @@ Footer {
 
 .inputname {
     margin: 10px;
+    color:#362B45;
 }
 
 .text-input {
     background: transparent;
-    color: #fafafa;
+    color: black;
     border-radius: 5px;
     width: 90%;
     height: 25px;
@@ -250,8 +251,11 @@ Footer {
     margin: 5px 10px 20px 10px;
     border: 1px solid #362B45;
 }
-.form-container h2 {text-align:center;}
-.form-container p {text-align:center;}
+.form-container h2 {text-align:center;
+    color:#362B45
+}
+.form-container p {text-align:center;
+color:#362B45;}
 
 .radio {
     display: flex;

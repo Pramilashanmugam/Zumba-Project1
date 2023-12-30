@@ -41,3 +41,40 @@ This website consist of 3 pages, Homepage, Why Zumba "shows the benefits of Zumb
 
 ![Screenshot 2023-12-30 10 46 39 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/a1f55cd4-ecef-474a-a7fa-0407b395baa4)
 
+## Why Zumba?
+
+* This page has a image which shows a positive vibe on doing Zumba. Refreshing, happy and enjoyment.
+
+![Screenshot 2023-12-30 10 54 59 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/d1dace1d-0fee-4557-925c-331e6dc59b94)
+
+* This page has more valuable information and benefits of doing Zumba, which would encourage people to join Zumba.
+
+![Screenshot 2023-12-30 10 55 48 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/670da566-882e-41d4-b3aa-e61d941e2b17)
+
+## Register
+
+* This page helps the user to register for trail class. 
+* The user needs to register with his/her full name, email address, specify the gender and also provided with comment section to leave their valuable comments.
+
+![Screenshot 2023-12-30 10 56 58 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/aad87002-2d45-48d2-b2e4-781a440a86d9)
+
+## Features left to Implement
+
+* Time slots for online, outdoor, indoor
+* A new page for Videos and pictures on future events
+
+## Testing
+
+Manual Testing done on Registration form, to check whether the form gets submitted without the required inputs like first name, last name and email address.
+
+## Validator Testing
+
+* ###HTML
+   * No errors were returned when passing through the official W3C validator
+* ###CSS
+   * No errors were found when passing through the official (Jigsaw) validator
+
+
+
+
+
