@@ -3,7 +3,7 @@
 ## Welcome to [Zumba for Fitness](https://8000-pramilashanmugam-zumba-p-dwz5t6k2m0.us2.codeanyapp.com/index.html)
 
 
-This is a website for people who are looking for fitness in a happier way. Here we promote Zumba, to keep you fit and happy at the sametime. It is proven to be more beneficial and effective, in terms of your physical and mental health. 
+This is a website for people who are looking for fitness in a easier and happier way. Here you get information about Zumba and its benefits, unlike other sport zumba doesn't focus only on physical health but also mental health. 
 
 We are targetting on people who are tired of regular exercises and looking for fitness with more joy and enjoyment. Zumba is open for all age from 6years. 
 
@@ -93,6 +93,10 @@ Once the master branch has been selected, the page will be automatically refresh
 
 The live link can be found here: https://github.com/Pramilashanmugam/Zumba-Project1.git
 
+## Lighthouse Result
+
+![Screenshot 2024-01-01 10 21 42 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/acaedfeb-45f0-4515-bd51-8838ba2b0514)
+
 ## Credits
 
 I would like to take this opportunity to thank many sources through which i have taken references in completion of my project.
@@ -101,7 +105,7 @@ I would like to take this opportunity to thank many sources through which i have
 * I would like to thank many Youtube channels, w3schools.com for more learning
 
 ### Content:
-* References about Zumba has been taken from Wikipedia, Google, Pinterest.
+* References about Zumba has been taken from Wikipedia, https://www.verywellfit.com/, Google, Pinterest.
 
 ### Media: 
 * Pictures and Video are taken from Pexels
