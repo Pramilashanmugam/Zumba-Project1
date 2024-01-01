@@ -12,11 +12,11 @@ This website is responsive in all screens from mobile to desktop.
 ![Screenshot 2023-12-30 10 11 16 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/de1defd6-32ac-4a98-9824-102da6ab4ddd)
 ## Features
 
-Our focus is to bring awareness on the benefits of doing Zumba and also by providing free trail class we encourage people to try and experience the joy of new sport with lot of fun.
+Our focus is to bring awareness on the benefits of doing Zumba and also by providing free trail classes we encourage people to try and experience the joy of new sport with lot of fun.
 
 ## Existing Features
 
-This website consist of 3 pages, Homepage, Why Zumba "shows the benefits of Zumba" and Register "a form to register for trial class"
+This website consist of 3 pages, Homepage, Why Zumba "shows the benefits of Zumba" and Register "a form to register for trail class"
 
 * ### Navigation Bar
   * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Why Zumba? and Register page and is identical in each page to allow for easy navigation. 
@@ -34,7 +34,7 @@ This website consist of 3 pages, Homepage, Why Zumba "shows the benefits of Zumb
   * The Pictures shows the joy of doing Zumba and also the number of active participants
   * More than fitness it brings happiness while doing workout.
 
-  ![Screenshot 2023-12-30 10 42 25 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/1ba31c2a-78a1-45ee-8d12-10323abe18c3)
+  ![Screenshot 2024-01-01 10 39 31 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/3baa8284-90f3-47b6-976d-bbd9df1ca44d)
 
 * ### Footer
 
