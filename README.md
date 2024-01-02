@@ -9,8 +9,13 @@ We are targetting on people who are tired of regular exercises and looking for f
 
 This website is responsive in all screens from mobile to desktop.
 
-![Screenshot 2023-12-30 10 11 16 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/de1defd6-32ac-4a98-9824-102da6ab4ddd)
+[![Screenshot-2024-01-02-10-35-07-PM.png](https://i.postimg.cc/9FDBXW7C/Screenshot-2024-01-02-10-35-07-PM.png)](https://postimg.cc/qzdKjHw5)
+
 ## Features
+
+This website is developed using HTML and CSS. 
+
+## Objective
 
 Our focus is to bring awareness on the benefits of doing Zumba and also by providing free trail classes we encourage people to try and experience the joy of new sport with lot of fun.
 
