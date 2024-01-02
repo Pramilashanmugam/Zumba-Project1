@@ -1,4 +1,4 @@
-# ZUMBA FOR FITNESS!
+# ZUMBA FOR FITNESS
 
 ## Welcome to [Zumba for Fitness](https://8000-pramilashanmugam-zumba-p-dwz5t6k2m0.us2.codeanyapp.com/index.html)
 
@@ -62,7 +62,7 @@ This website consist of 3 pages, Homepage, Why Zumba "shows the benefits of Zumb
 
 ## Features left to Implement
 
-* Time slots for online, outdoor, indoor
+* Option to choose like online, outdoor, indoor
 * A new page for Videos and pictures on future events
 
 ## Testing

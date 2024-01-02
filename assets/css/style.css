@@ -189,6 +189,8 @@ Footer {
 .page2image {
     width: 100%;
     height: auto;
+    object-fit: cover;
+    object-position: top;    
 }
 
 #reasons {
@@ -378,8 +380,9 @@ label>.gender {
     }
 
     /*Why Zumba page*/
-    .image .page2image {
+   /*.image .page2image {
         margin: 0 0 0 13%;
         max-width: 75%;
-    }
+        object-fit: contain;
+    }*/
 }
