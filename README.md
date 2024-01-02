@@ -3,7 +3,7 @@
 ## Welcome to [Zumba for Fitness](https://8000-pramilashanmugam-zumba-p-dwz5t6k2m0.us2.codeanyapp.com/index.html)
 
 
-This is a website for people who are looking for fitness in a easier and happier way. Here you get information about Zumba and its benefits, unlike other sport zumba doesn't focus only on physical health but also mental health. 
+This website is for people who are looking for fitness in a easier and happier way. Here you get information about Zumba and its benefits, unlike other sport zumba doesn't focus only on physical health but also mental health. 
 
 We are targetting on people who are tired of regular exercises and looking for fitness with more joy and enjoyment. Zumba is open for all age from 6years. 
 
