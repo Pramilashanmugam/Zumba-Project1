@@ -320,11 +320,7 @@ label>.gender {
         justify-content: space-evenly;
     }
 
-    #social {
-        margin: 28px 0 16px 0;
-    }
-
-    /*Why Zumba page*/
+      /*Why Zumba page*/
 
     #benefits-row1,
     #benefits-row2,
@@ -371,14 +367,4 @@ label>.gender {
 
     /*Footer*/
 
-    #social {
-        margin: 28px 0 16px 0;
-    }
-
-    /*Why Zumba page*/
- /*.image .page2image {
-        margin: 0 0 0 13%;
-        max-width: 75%;
-        object-fit: contain;
-    }*/
 }
