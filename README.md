@@ -82,9 +82,9 @@ Manual Testing done on Registration form, to check whether the form gets submitt
 
 ## Validator Testing
 
-* ###HTML
+* ### HTML
    * No errors were returned when passing through the official W3C validator
-* ###CSS
+* ### CSS
    * No errors were found when passing through the official (Jigsaw) validator
 
 ## Deployment
