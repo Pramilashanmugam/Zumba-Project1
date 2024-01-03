@@ -3,11 +3,11 @@
 ## Welcome to [Zumba for Fitness](https://8000-pramilashanmugam-zumba-p-dwz5t6k2m0.us2.codeanyapp.com/index.html)
 
 
-This website is for people who are looking for fitness in a easier and happier way. Here you get information about Zumba and its benefits, unlike other sport zumba doesn't focus only on physical health but also mental health. 
+This website is for people who are looking for fitness in an easier and happier way. Here you get information about Zumba and its benefits; unlike other sports, Zumba doesn't focus only on physical health but also mental health.
 
 We are targetting on people who are tired of regular exercises and looking for fitness with more joy and enjoyment. Zumba is open for all age from 6years. 
 
-This website is responsive in all screens from mobile to desktop.
+This website is responsive on all screens, from mobile to desktop.
 
 [![Screenshot-2024-01-02-10-35-07-PM.png](https://i.postimg.cc/9FDBXW7C/Screenshot-2024-01-02-10-35-07-PM.png)](https://postimg.cc/qzdKjHw5)
 
@@ -17,21 +17,21 @@ This website is developed using HTML and CSS.
 
 ## Objective
 
-Our focus is to bring awareness on the benefits of doing Zumba and also by providing free trail classes we encourage people to try and experience the joy of new sport with lot of fun.
+Our focus is to bring awareness to the benefits of doing Zumba, and by providing free trail classes, we encourage people to try and experience the joy of a new sport with a lot of fun.
 
 ## Existing Features
 
-This website consist of 3 pages, Homepage, Why Zumba "shows the benefits of Zumba" and Register "a form to register for trail class"
+This website consists of 3 pages: Homepage, Why Zumba "shows the benefits of Zumba," and Register "a form to register for a trail class."
 
 * ### Navigation Bar
-  * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Why Zumba? and Register page and is identical in each page to allow for easy navigation. 
+  * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Why Zumba? and Register page and is identical on each page to allow for easy navigation. 
   * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the back button.
 
 ![Screenshot 2023-12-30 10 25 05 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/6a43db53-4279-4fb2-95dd-6794035eca54)
 
 * ### Homepage/landing page
-  * This page will have a video which is not autoplay and the video shows the joy of dancing to give the best impression on Zumba.
-  * The video will create the vibe on people to give a try on Zumba.
+  * This page will have a video that is not autoplay and the video shows the joy of dancing to give the best impression on Zumba.
+  * The video will create an interest to give it a try on Zumba.
 
   ![Screenshot 2023-12-30 10 36 59 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/4985bbfd-c4aa-4808-acf5-0b7586b18885)
 
@@ -113,7 +113,7 @@ I would like to take this opportunity to thank many sources through which i have
 * References about Zumba has been taken from Wikipedia, https://www.verywellfit.com/, Google, Pinterest.
 
 ### Media: 
-* Pictures and Video are taken from Pexels
+* Pictures and Video are taken from Pexels.com, pixabay.com
 * Favicon created using favicon.io
 * icons are created using fontawesome
 
