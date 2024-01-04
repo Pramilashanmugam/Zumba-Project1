@@ -1,6 +1,6 @@
 # ZUMBA FOR FITNESS
 
-## Welcome to [Zumba for Fitness](https://8000-pramilashanmugam-zumba-p-dwz5t6k2m0.us2.codeanyapp.com/index.html)
+## Welcome to [Zumba for Fitness](https://pramilashanmugam.github.io/Zumba-Project1/)
 
 
 This website is for people who are looking for fitness in an easier and happier way. Here you get information about Zumba and its benefits; unlike other sports, Zumba doesn't focus only on physical health but also mental health.
@@ -22,6 +22,11 @@ Our focus is to bring awareness to the benefits of doing Zumba, and by providing
 ## Existing Features
 
 This website consists of 3 pages: Homepage, Why Zumba "shows the benefits of Zumba," and Register "a form to register for a trail class."
+* ### Favicon
+
+  * A site wide favicon has been implemented, a girl dancing happily.
+
+  ![Screenshot 2024-01-04 5 13 39 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/2eaec3b0-06ca-4dee-904e-c5d721778bde)
 
 * ### Navigation Bar
   * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Why Zumba? and Register page and is identical on each page to allow for easy navigation. 
@@ -38,6 +43,7 @@ This website consists of 3 pages: Homepage, Why Zumba "shows the benefits of Zum
 * ### Images of participants
   * The Pictures shows the joy of doing Zumba and also the number of active participants
   * More than fitness it brings happiness while doing workout.
+  * You will get information about Zumba here.
 
   ![Screenshot 2024-01-01 10 39 31 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/3baa8284-90f3-47b6-976d-bbd9df1ca44d)
 
@@ -47,6 +53,11 @@ This website consists of 3 pages: Homepage, Why Zumba "shows the benefits of Zum
   * The footer is valuable as it encourages user to get connected on social media, which inturn helps in spreading the joy of Zumba.
 
 ![Screenshot 2023-12-30 10 46 39 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/a1f55cd4-ecef-474a-a7fa-0407b395baa4)
+
+* ### 404 Page
+
+  * A 404 page has been implemented and it will be displayed when a user navigates to a broken link.
+  * The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need of the browsers back button.
 
 ## Why Zumba?
 
@@ -61,6 +72,12 @@ This website consists of 3 pages: Homepage, Why Zumba "shows the benefits of Zum
 ## Register
 
 * This page helps the user to register for trail class. 
+  * The form consists of the following fiel and attributes:
+     * First Name (required, type=text)
+     * Last Name (required, type=text) 
+     * Gender (options, type=radio)
+     * Email (required, type=email)
+     * Comment (textarea)
 * The user needs to register with his/her full name, email address, specify the gender and also provided with comment section to leave their valuable comments.
 
 ![Screenshot 2023-12-30 10 56 58 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/aad87002-2d45-48d2-b2e4-781a440a86d9)
@@ -104,18 +121,26 @@ The live link can be found here: https://github.com/Pramilashanmugam/Zumba-Proje
 
 ## Credits
 
-I would like to take this opportunity to thank many sources through which i have taken references in completion of my project.
-
-* First and foremost i took lot of references from Love running project, my mentor, my slack members who have directed me the right path to acheive my goals. I have also taken referrences from some websites like https://tanz-yoga-frankfurt.de/, https://johnreed.fitness/home for designs and presentation.
-* I would like to thank many Youtube channels, w3schools.com for more learning
+* I would like to take this opportunity to thank the many sources and people who are the reason for my completion of project
+   * my mentors Rory Patrick and Daisy for being very supportive and helpful.
+   * my slack members who have directed me the right path to acheive my goals.
+   * I would like to thank many Youtube channels, w3schools.com for more learning.
+   * Websites which i used as references
+      * Love running project for Navigation
+      * https://tanz-yoga-frankfurt.de/ inspired me to create a similar footer 
+      * https://johnreed.fitness/home for designs and presentation.
+      * 404 page https://www.youtube.com/watch?v=Jj42_s3KnuM
+      * tinypng.com for compressing the images
+      * convertio.co for converting images from jpg to webp.
+      * Wireframe created using https://balsamiq.cloud/s9mq6ha/p7e2wvk/r1D80
 
 ### Content:
 * References about Zumba has been taken from Wikipedia, https://www.verywellfit.com/, Google, Pinterest.
 
 ### Media: 
 * Pictures and Video are taken from Pexels.com, pixabay.com
-* Favicon created using favicon.io
-* icons are created using fontawesome
+* Favicon created using favicon.io.
+* icons are created using fontawesome.com.
 
 
 

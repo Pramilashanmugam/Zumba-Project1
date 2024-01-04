@@ -57,6 +57,20 @@ h3 {
 }
 
 /*Header*/
+
+/* Hiding class, making content visible only to screen readers but not visually */
+/* "sr" meaning "screen-reader" */
+
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
 header {
     background-color: #362B45;
     padding: 0 1rem;
@@ -263,7 +277,7 @@ fieldset {
 }
 
 input[type="radio"] {
-    margin-left:5%;
+    margin-left: 5%;
 }
 
 .form-container h2 {
@@ -306,6 +320,11 @@ label>.gender {
     min-height: 75px;
     border-radius: 10px;
     border: 1px solid #362B45;
+}
+
+/*404.html page*/
+.text-center {
+    text-align: center;
 }
 
 /*Media queries: tablets and larger (768px and up)*/
@@ -372,9 +391,10 @@ label>.gender {
         margin: 5px;
         flex-wrap: wrap;
     }
+
     /*Register*/
     input[type="radio"] {
-        margin-left:10%;
+        margin-left: 10%;
     }
 }
 
