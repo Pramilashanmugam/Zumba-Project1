@@ -48,7 +48,7 @@ h3 {
 
 #header-nav {
     font-size: 110%;
-    letter-spacing:4px;
+    letter-spacing: 4px;
     list-style-type: none;
 }
 
@@ -124,7 +124,11 @@ main {
 .main-content {
     margin: 20px 20px;
 }
-.main-content p{text-align:center;}
+
+.main-content p {
+    text-align: center;
+}
+
 .containerbox {
     width: 100%;
     height: auto;
@@ -186,7 +190,7 @@ Footer {
     width: 100%;
     height: auto;
     object-fit: cover;
-    object-position: top;    
+    object-position: top;
 }
 
 #reasons {
@@ -236,7 +240,7 @@ Footer {
 
 .inputname {
     margin: 10px;
-    color:#362B45;
+    color: #362B45;
 }
 
 .text-input {
@@ -249,20 +253,39 @@ Footer {
     margin: 5px 10px 20px 10px;
     border: 1px solid #362B45;
 }
-.form-container h2 {text-align:center;
-    color:#362B45
+
+fieldset {
+    border-radius: 5px;
+    width: 95%;
+    padding: 0 5px;
+    border: 1px solid #362B45;
+    margin: 5px 10px 20px 10px;
 }
-.form-container p {text-align:center;
-color:#362B45;}
+
+input[type="radio"] {
+    margin-left:5%;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #362B45
+}
+
+.form-container p {
+    text-align: center;
+    color: #362B45;
+}
 
 .radio {
     display: flex;
     justify-content: space-between;
     width: 95%;
+    align-items: center;
 }
 
 label>.gender {
     font-size: 50%;
+    padding: 0 10px;
 }
 
 .registerbtn {
@@ -320,7 +343,7 @@ label>.gender {
         justify-content: space-evenly;
     }
 
-      /*Why Zumba page*/
+    /*Why Zumba page*/
 
     #benefits-row1,
     #benefits-row2,
@@ -349,6 +372,10 @@ label>.gender {
         margin: 5px;
         flex-wrap: wrap;
     }
+    /*Register*/
+    input[type="radio"] {
+        margin-left:10%;
+    }
 }
 
 /*Media queries: laptops and desktop (992px and up)*/
@@ -364,7 +391,4 @@ label>.gender {
         width: 30%;
         height: 300px;
     }
-
-    /*Footer*/
-
 }
