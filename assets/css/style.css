@@ -323,8 +323,18 @@ label>.gender {
 }
 
 /*404.html page*/
-.text-center {
+.notfound {
     text-align: center;
+}
+
+.notfound h1,
+h2,
+p {
+    color: #362b45;
+}
+
+.errormsg {
+    width: 50%;
 }
 
 /*Media queries: tablets and larger (768px and up)*/
