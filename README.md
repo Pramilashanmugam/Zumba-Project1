@@ -143,6 +143,29 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
   * Set the zoom to 50%.
   * Click and drag the responsive window to maximum width.
 
+Expected:
+
+Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
+
+Actual:
+
+Website behaved as expected.
+
+Website was also opened on the following devices and no responsive issues were seen:
+
+* Galaxy fold
+* ipad Air
+* iPhone SE
+* Samsung s8+
+* Surface Pro 7
+
+## Functional Testing
+
+* Navigation Links
+
+ Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+ Links on all pages navigated to the correct pages as exptected.
+
 * Manual Testing on Registration form 
 
 ![Screenshot 2024-01-05 12 15 56 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/e2a8c88b-a088-4c7a-9bae-5dbffd5ddaa2)
@@ -153,6 +176,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
    * initially didn't add required attribute to input field hence the form was accepted even when it was blank, same rectified after including required attribute.
 
 
+
 ## Validator Testing
 
 * ### HTML
@@ -160,20 +184,50 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 * ### CSS
    * No errors were found when passing through the official (Jigsaw) validator
 
-## Deployment
+## PageSpeedInsight Result
 
-Every phase of the project has been deployed to GitHub page, to ensure no loss of data. Deployed project has been checked frequently in comparision with the local project to ensure no difference.
-
-* The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-
-The live link can be found here: https://github.com/Pramilashanmugam/Zumba-Project1.git
-
-## Lighthouse Result
+### Home
 
 ![Screenshot 2024-01-01 10 21 42 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/acaedfeb-45f0-4515-bd51-8838ba2b0514)
+
+### Why Zumba?
+
+![Screenshot 2024-01-05 1 27 13 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/dc0a5d4c-ea17-4727-883e-0b52ebcd1f46)
+
+### Register
+
+![Screenshot 2024-01-05 1 28 28 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/f5d2e03c-5661-4877-a49b-3e748e0a9208)
+
+## Deployment
+
+### Version Control
+
+* The site is created using the Codeanywhere IDE and then added and commited to git. Later pushed to github.
+* The following git commands were used throughout development to push code to the remote repo:
+  * git add <file> - This command was used to add the file(s) to the staging area before they are committed.
+  * git commit -m “commit message” - This command was used to commit changes to the local repository queue ready for the final step.
+  * git push - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+* In the GitHub repository, navigate to the Settings tab
+* From the menu on left select 'Pages'
+* From the source section drop-down menu, select the Branch: main
+* Click 'Save'
+* A live link will be displayed in a green banner when published successfully.
+
+  The live link can be found here - https://pramilashanmugam.github.io/Zumba-Project1/
+
+### Clone the Repository Code Locally
+
+Navigate to the GitHub Repository you want to clone to use locally:
+*  Click on the code drop down button
+*  Click on HTTPS
+*  Copy the repository link to the clipboard
+*  Open your IDE of choice (git must be installed for the next steps)
+*  Type git clone copied-git-url into the IDE terminal
+The project will now of been cloned on your local machine for use.
 
 ## Credits
 
