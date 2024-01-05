@@ -163,8 +163,8 @@ Website was also opened on the following devices and no responsive issues were s
 
 * Navigation Links
 
- Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
- Links on all pages navigated to the correct pages as exptected.
+  * Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+  * Links on all pages navigated to the correct pages as exptected.
 
 * Manual Testing on Registration form 
 
@@ -175,14 +175,45 @@ Website was also opened on the following devices and no responsive issues were s
    * datas entered in input field was invisible, identified the issue was due to the color choice of input values and same rectified.
    * initially didn't add required attribute to input field hence the form was accepted even when it was blank, same rectified after including required attribute.
 
+* Footer Social Media Icons / Links
+  * Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab.
+  * Each item opened a new tab when clicked as expected
 
+* Footer Contact Information
+  * Testing was performed on the phone number in the contact information section of the footer to ensure behaviour was as expected.
+   * Steps to test Telephone Number
+     * Navigate to Zumba for Fitness - Home page
+     * Click the phone number in the footer
+
+   * Expected:
+     * A window is opened asking which device you would like to call from.
+   * Actual:
+     * Behavior was as expected and a new window opens.
+
+   * Steps to test Email Link 
+    * Navigate to Zumba for Fitness - Home page
+    * Click the email address in the footer
+
+   * Expected:
+    * A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened. 
+   * Actual:
+    * Behavior was as expected and my Gmail application was opened ready to send an email to the target address.
 
 ## Validator Testing
 
 * ### HTML
    * No errors were returned when passing through the official W3C validator
+
+   ![Screenshot 2024-01-05 2 06 24 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/73f127fa-18fc-4370-8f46-1762bac3f397)
+
+   ![Screenshot 2024-01-05 2 08 39 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/67b6d735-e1c7-4ff0-b680-0714249cf239)
+
+   ![Screenshot 2024-01-05 2 10 43 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/95b389f3-5330-41cf-91a5-56d4ec4f8d3d)
+
 * ### CSS
    * No errors were found when passing through the official (Jigsaw) validator
+
+   ![Screenshot 2024-01-05 2 12 08 PM](https://github.com/Pramilashanmugam/Zumba-Project1/assets/150790058/935dbbe8-6a9b-4eef-a650-9918258f2f5e)
 
 ## PageSpeedInsight Result
 
@@ -244,6 +275,7 @@ The project will now of been cloned on your local machine for use.
       * convertio.co for converting images from jpg to webp.
       * Wireframe created using https://balsamiq.cloud/s9mq6ha/p7e2wvk/r1D80
       * hidden code for sr-only class taken from https://css-tricks.com/inclusively-hidden/
+      * Readme content inspired from https://github.com/Gareth-McGirr/tacos-travels/blob/main/README.md
 
 ### Content:
 * References about Zumba has been taken from Wikipedia, https://www.verywellfit.com/, Google, Pinterest.
