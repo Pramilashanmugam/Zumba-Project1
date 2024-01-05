@@ -183,6 +183,10 @@ Footer {
     margin: 10px 0;
 }
 
+.footer-container > p {
+    color: white;
+}
+
 /* below comment will not display bullet points*/
 #social-networks {
     list-style-type: none;
@@ -325,6 +329,7 @@ label>.gender {
 /*404.html page*/
 .notfound {
     text-align: center;
+    justify-content: space-around;
 }
 
 .notfound h1,
@@ -335,6 +340,7 @@ p {
 
 .errormsg {
     width: 50%;
+    margin: 0 25%;
 }
 
 /*Media queries: tablets and larger (768px and up)*/
